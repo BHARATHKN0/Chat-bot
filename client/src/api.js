@@ -1,7 +1,7 @@
 export const fetchResponse =  async(chat) => {
     try {
         // after depoloyment you should change the fetch URL below
-        const response = await fetch('https://chatbot-server-green.vercel.app/', { 
+        const response = await fetch('Web link of the deployed server', { 
             method: 'POST',
             headers: {
                 "Content-Type": "application/json"
